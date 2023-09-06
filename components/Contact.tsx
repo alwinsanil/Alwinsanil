@@ -17,9 +17,9 @@ const Contact = () => {
         </div>
         <div className='mt-10 items-center grid grid-cols-2 md:grid-cols-4 gap-6'>
             <Socials name='GitHub' url='https://github.com/alwinsanil' />
-            <Socials name='LinkedIn' url='https://github.com/alwinsanil' />
-            <Socials name='Instagrm' url='https://github.com/alwinsanil' />
-            <Socials name='Twitter' url='https://github.com/alwinsanil' />
+            <Socials name='LinkedIn' url='https://www.linkedin.com/in/alwin-sanil-63a27a210/' />
+            <Socials name='Instagrm' url='https://www.instagram.com/alwin.sanil/?hl=en' />
+            <Socials name='Twitter' url='https://www.linkedin.com/in/alwin-sanil-63a27a210/' />
         </div>
     </div>
   )
