@@ -7,8 +7,8 @@
 <!-- <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alwinsanil&theme=chalk&no-bg=true&column=4&margin-w=15&margin-h=15" alt="alwinsanil" /></a> </p> -->
 
 <p align="center">I'm always looking for exciting new opportunities</p> 
-<p align="center">Check out my portfolio here: <strong><a href="https://alwinsanil.vercel.app/"></a>alwinsanil.vercel.app 🔗</strong></p> 
-<p align="center">You can always reach me @ <a href="mailto:alwinsanil@gmail.com"><strong>alwinsanil@gmail.com</strong> 📧</a></p> 
+<p align="center">Check out my portfolio here: <strong><a href="https://alwinsanil.vercel.app/">alwinsanil.vercel.app</a> 🔗</strong></p> 
+<p align="center">You can always reach me @ <a href="mailto:alwinsanil@gmail.com"><strong>alwinsanil@gmail.com</strong></a> 📧</p> 
 <br>
 </p>
 <h3 align="center">Connect with me:</h3>
