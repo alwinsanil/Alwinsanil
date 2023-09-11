@@ -18,8 +18,8 @@ const Contact = () => {
         <div className='mt-10 items-center grid grid-cols-2 md:grid-cols-4 gap-6'>
             <Socials name='GitHub' url='https://github.com/alwinsanil' />
             <Socials name='LinkedIn' url='https://www.linkedin.com/in/alwin-sanil-63a27a210/' />
-            <Socials name='Instagrm' url='https://www.instagram.com/alwin.sanil/?hl=en' />
-            <Socials name='Twitter' url='https://www.linkedin.com/in/alwin-sanil-63a27a210/' />
+            <Socials name='Instagram' url='https://www.instagram.com/alwin.sanil/?hl=en' />
+            <Socials name='WhatsApp' url='https://wa.me/+916282286717' />
         </div>
     </div>
   )

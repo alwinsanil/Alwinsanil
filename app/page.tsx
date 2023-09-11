@@ -13,9 +13,9 @@ export default function Home() {
       <div className="max-w-screen-lg mx-auto lg:pt-10">
         <Banner />
         {/* <AboutMe /> */}
-        {/* <Experience /> */}
+        <Experience />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
         <Contact />
         <Footer />
       </div>
