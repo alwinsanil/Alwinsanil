@@ -10,4 +10,31 @@
   .arrowMove{
     @apply text-xl translate-x-0 translate-y-0 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500
   }
+
+  .zoom-image {
+    transform: scale(1.15);
+    transition: transform 0.5s ease;
+  }
+
+  .zoomer {
+    transform: scale(1.5);
+    position: absolute;
+    object-fit: cover;
+    object-position:left top;
+  }
+  .slide-image {
+    /* transform: scale(1.5); */
+    /* transform: translateX(-50%); */
+    --tw-scale-x: 2;
+    --tw-scale-y: 1.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform-origin: right top;
+    transition-duration: 3s;
+  }
+  .scale-custom {
+    --tw-scale-x: 2;
+    --tw-scale-y: 1.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transform-origin: left top;
+  }
 }
