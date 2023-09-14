@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Montserrat} from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 const roboto = Montserrat({ weight: '400', subsets: ['latin'] })
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
