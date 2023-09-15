@@ -8,7 +8,7 @@ import ProjCard from './ProjCard'
 
 const Projects = () => {
   return (
-    <div className='wrapper'>
+    <div id='projects' className='wrapper'>
         <Title text='Projects' icon={<AiOutlineFundProjectionScreen />} />
         <div className='flex flex-col gap-14'>
           <ProjCard 
