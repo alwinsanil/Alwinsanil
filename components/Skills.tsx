@@ -5,7 +5,7 @@ import SkillCard from './SkillCard'
 
 const Skills = () => {
   return (
-    <div className='wrapper'>
+    <div id='skills' className='wrapper'>
         <Title text='Skills' icon={<DiGoogleAnalytics />} />
         <div className='flex gap-6 flex-wrap'>
             <SkillCard name='JavaScript' url='https://github.com/alwinsanil' />

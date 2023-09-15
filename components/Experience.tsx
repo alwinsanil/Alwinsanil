@@ -6,7 +6,7 @@ import {MdWork} from 'react-icons/md'
 
 const Experience = () => {
   return (
-    <div className='wrapper'>
+    <div id='exp' className='wrapper'>
         <Title text='Experience' icon={<MdWork />} />
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             <ExpCard name='Alderaa.com | Freelance' desc='Web Developer | 2022' icon={<SiReactivex className='text-2xl' />} />
