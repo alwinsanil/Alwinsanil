@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div className='pt-20 pl-30 pr-30 flex flex-row justify-center gap-3'>
+    <div className='invisible md:visible pt-20 pl-30 pr-30 flex flex-row justify-center gap-3'>
         <div className='flex items-center group'>
             <h3 className='text-2xl font-semibold relative overflow-hidden'>
                 <a href='#exp'>
