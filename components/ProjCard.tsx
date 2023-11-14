@@ -62,8 +62,7 @@ const ProjCard = ({ch, proj, url, img, tools, desc}: ProjDet) => {
         <div className='max-w-lg p-3'>
           <h2 className='pt-3 md:pt-10 font-extrabold text-3xl'>{proj}</h2>
           <p className='pt-4 text-lg'>
-            A chrome extension to increase productivity by limiting distracting elements on the internet. The extension aims to give back the time
-            lost to unproductive and addictive elements on the internet.
+            {desc}
           </p>
           <p className='pt-4 text-xl text-purple-600 font-bold'>
             Languages/Tools: {tools}
