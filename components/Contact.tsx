@@ -3,7 +3,7 @@ import Socials from "./Socials"
 
 const Contact = () => {
   return (
-    <div id="cont" className='wrapper'>
+    <div id="contact" className='wrapper'>
         <div className='max-w-5xl mx-auto flex flex-col gap-4 items-center justify-center'>
             <h2 className='text-4xl font-bold text-center'>Let us Get in Touch</h2>
             <p className='text-lg tracking-wide font-medium text-center'>

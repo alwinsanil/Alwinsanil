@@ -13,6 +13,8 @@ const Skills = () => {
             <SkillCard name='SQL' url='https://www.w3schools.com/sql/' />
             <SkillCard name='Reactjs' url='https://react.dev/' />
             <SkillCard name='Nextjs' url='https://nextjs.org/' />
+            <SkillCard name='FastAPI' url='https://fastapi.tiangolo.com/' />
+            <SkillCard name='Vuejs' url='https://vuejs.org/' />
             <SkillCard name='MongoDB' url='https://www.mongodb.com/' />
             <SkillCard name='Advanced Excel' url='https://www.microsoft.com/en-us/microsoft-365/excel' />
             <SkillCard name='C++' url='https://www.w3schools.com/cpp/' />
@@ -26,6 +28,7 @@ const Skills = () => {
             <SkillCard name='Styled Components' url='https://styled-components.com/' />
             <SkillCard name='Databases' url='' />
             <SkillCard name='Power BI' url='https://powerbi.microsoft.com/en-us/' />
+            <SkillCard name='Amazon AWS' url='https://aws.amazon.com/' />
             {/* <SkillCard name='Tableau' url='https://www.tableau.com/' /> */}
         </div>
     </div>
