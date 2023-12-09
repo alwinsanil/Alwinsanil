@@ -5,7 +5,7 @@ const NavBar = () => {
     <div className='invisible md:visible pt-20 pl-30 pr-30 flex flex-row justify-center gap-3'>
         <div className='flex items-center group'>
             <h3 className='text-2xl font-semibold relative overflow-hidden'>
-                <a href='#exp'>
+                <a href='#experience'>
                     Experience{""}
                 </a>
             <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
@@ -41,7 +41,7 @@ const NavBar = () => {
     </div>
     <div className='flex items-center group'>
         <h3 className='text-2xl font-semibold relative overflow-hidden'>
-            <a href='#cont'>
+            <a href='#contact'>
                 Contact{""}
             </a>
         <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
