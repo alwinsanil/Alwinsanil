@@ -8,6 +8,7 @@ const Skills = () => {
     <div id='skills' className='wrapper'>
         <Title text='Skills' icon={<DiGoogleAnalytics />} />
         <div className='flex gap-6 flex-wrap'>
+            <SkillCard name='TypeScript' url='https://www.typescriptlang.org/' />
             <SkillCard name='JavaScript' url='https://www.javascript.com/' />
             <SkillCard name='Python' url='https://www.w3schools.com/python/' />
             <SkillCard name='SQL' url='https://www.w3schools.com/sql/' />
