@@ -15,11 +15,13 @@ const Skills = () => {
             <SkillCard name='Reactjs' url='https://react.dev/' />
             <SkillCard name='Nextjs' url='https://nextjs.org/' />
             <SkillCard name='FastAPI' url='https://fastapi.tiangolo.com/' />
-            <SkillCard name='Vuejs' url='https://vuejs.org/' />
+            <SkillCard name='Java' url='https://www.java.com/en/' />
             <SkillCard name='MongoDB' url='https://www.mongodb.com/' />
+            <SkillCard name='REST APIs' url='https://www.geeksforgeeks.org/rest-api-introduction/' />
+            <SkillCard name='Amazon AWS' url='https://aws.amazon.com/' />
             <SkillCard name='Advanced Excel' url='https://www.microsoft.com/en-us/microsoft-365/excel' />
-            <SkillCard name='C++' url='https://www.w3schools.com/cpp/' />
             <SkillCard name='C Programming' url='https://www.w3schools.com/c/c_intro.php' />
+            <SkillCard name='C++' url='https://www.w3schools.com/cpp/' />
             <SkillCard name='Nodejs' url='https://nodejs.org/en' />
             <SkillCard name='HTML5' url='https://www.w3schools.com/html/' />
             <SkillCard name='CSS' url='https://www.w3schools.com/css/' />
@@ -29,7 +31,6 @@ const Skills = () => {
             <SkillCard name='Styled Components' url='https://styled-components.com/' />
             <SkillCard name='Databases' url='' />
             <SkillCard name='Power BI' url='https://powerbi.microsoft.com/en-us/' />
-            <SkillCard name='Amazon AWS' url='https://aws.amazon.com/' />
             {/* <SkillCard name='Tableau' url='https://www.tableau.com/' /> */}
         </div>
     </div>
