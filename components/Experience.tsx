@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ExpCard
           name="Lindner Prater | Internship"
-          desc="Software Developer | July 2023 - Present"
+          desc="Software Developer | July 2023 - November 2024"
           icon={<SiReactivex className="text-2xl" />}
         />
         <ExpCard

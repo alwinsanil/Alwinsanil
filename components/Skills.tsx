@@ -10,15 +10,16 @@ const Skills = () => {
         <div className='flex gap-6 flex-wrap'>
             <SkillCard name='TypeScript' url='https://www.typescriptlang.org/' />
             <SkillCard name='JavaScript' url='https://www.javascript.com/' />
-            <SkillCard name='Python' url='https://www.w3schools.com/python/' />
+            <SkillCard name='Java' url='https://www.java.com/en/' />
             <SkillCard name='SQL' url='https://www.w3schools.com/sql/' />
             <SkillCard name='Reactjs' url='https://react.dev/' />
             <SkillCard name='Nextjs' url='https://nextjs.org/' />
             <SkillCard name='FastAPI' url='https://fastapi.tiangolo.com/' />
-            <SkillCard name='Java' url='https://www.java.com/en/' />
+            <SkillCard name='Python' url='https://www.w3schools.com/python/' />
             <SkillCard name='MongoDB' url='https://www.mongodb.com/' />
             <SkillCard name='REST APIs' url='https://www.geeksforgeeks.org/rest-api-introduction/' />
             <SkillCard name='Amazon AWS' url='https://aws.amazon.com/' />
+            <SkillCard name='Postman' url='https://postman.com/' />
             <SkillCard name='Advanced Excel' url='https://www.microsoft.com/en-us/microsoft-365/excel' />
             <SkillCard name='C Programming' url='https://www.w3schools.com/c/c_intro.php' />
             <SkillCard name='C++' url='https://www.w3schools.com/cpp/' />
