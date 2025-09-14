@@ -3,6 +3,8 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import dwb from "../public/img/DWB.png";
 import cda from "../public/img/cda.webp";
 import bms from "../public/img/BMS.png";
+import ps from "../public/img/ProjectStream.png"
+import ds from "../public/img/DALScooter.png"
 import nw from "../public/img/nw.jpg";
 import ecAdmin from "../public/img/ecommerce-admin.png";
 import ecUser from "../public/img/ecommerce-user.png";
@@ -14,8 +16,24 @@ const Projects = () => {
       <Title text="Projects" icon={<AiOutlineFundProjectionScreen />} />
       <div className="flex flex-col gap-14">
         <ProjCard
+            ch="2"
+            proj="ProjectStream - Jira Lite"
+            url="https://github.com/alwinsanil/ProjectStream"
+            img={ps.src}
+            desc="A full-stack software application aimed at simplifying project management systems. Built for both technical and non-technical users enabling them to manage their project in a general platform."
+            tools="React, Java, SpringBoot, JavaScript, JUnit Testing, MySQL, VMs, CI/CD"
+        />
+        <ProjCard
+            ch="2"
+            proj="DALScooter eCommerce"
+            url="https://main.dnctgkfwwxgms.amplifyapp.com"
+            img={ds.src}
+            desc="A fully serverless eCommerce application to rent bikes and e-scooters. Built on a multi-cloud environment using AWS and Azure Services enabling auto-scaling and automated CI/CD pipelines."
+            tools="AWS, Azure, Cognito, SNS, SQS, Lambda, Amplify, DynamoDB, Terraform"
+        />
+        <ProjCard
           ch="2"
-          proj="eCommerce Admin Application"
+          proj="eCommerce Admin App"
           url="https://github.com/alwinsanil/ECommerce-Admin"
           img={ecAdmin.src}
           desc="The Admin side application of an eCommerce Platform. This application enables the admin of an 

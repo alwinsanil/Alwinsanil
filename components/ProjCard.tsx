@@ -32,7 +32,7 @@ const ProjCard = ({ch, proj, url, img, tools, desc}: ProjDet) => {
             {desc}
           </p>
           <p className='pt-4 text-xl text-purple-600 font-bold'>
-            Languages/Tools: {tools}
+            Stack: {tools}
           </p>
           <a href={url} target='_blank' className='pt-6 flex gap-2 text-xl text-gray-400 font-semibold group'>
                 <p>GitHub Repo</p>
@@ -65,7 +65,7 @@ const ProjCard = ({ch, proj, url, img, tools, desc}: ProjDet) => {
             {desc}
           </p>
           <p className='pt-4 text-xl text-purple-600 font-bold'>
-            Languages/Tools: {tools}
+            Stack: {tools}
           </p>
           <a href={url} target='_blank' className='pt-6 flex gap-2 text-xl text-gray-400 font-semibold group'>
                 <p>GitHub Repo</p>
