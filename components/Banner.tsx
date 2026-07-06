@@ -20,12 +20,12 @@ const Banner = () => {
         </h3>
         <p className="text-base tracking-wide pt-3 text-center md:text-left">
           I build software that handles real business complexity — inventory systems, multi-cloud deployments, load-tested APIs — not tutorial projects. 
-          Master's in Applied Computer Science from Dalhousie (4.15 GPA), and before that a Bachelor's in the same field. 
+          Master&apos;s in Applied Computer Science from Dalhousie (4.15 GPA), and before that a Bachelor&apos;s in the same field. 
           At Lindner Group in Dubai I built a procurement and inventory system from scratch, the kind of ERP work most new grads never touch. 
           At ChangeMakers in Halifax I worked across the stack, from React and WordPress to accessibility audits that actually shipped.
           <br />
           <br />
-          Right now I'm deep in Java/Spring Boot, AWS and Azure, Docker, CI/CD — the stuff that keeps systems running, not just working. 
+          Right now I&apos;m deep in Java/Spring Boot, AWS and Azure, Docker, CI/CD — the stuff that keeps systems running, not just working. 
           DALScooter was multi-cloud with CloudWatch logging and k6 load testing. ProjectStream was Spring Boot end to end. I like the 
           DevOps and SRE side of engineering: the part where code meets infrastructure and has to survive contact with production.
           <br />
