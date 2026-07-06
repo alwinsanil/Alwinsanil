@@ -3,7 +3,7 @@ import profilePic from '../public/img/profilepic.jpg'
 
 const Banner = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-10 wrapper">
+    <div className="flex flex-col md:flex-row items-top gap-10 wrapper">
       {/*Image*/}
       <div className="w-40 h-40 rounded-full bg-black">
         <Image
@@ -16,16 +16,21 @@ const Banner = () => {
       <div className="w-3/4 flex flex-col text-center md:text-start gap-2">
         <h1 className="text-5xl font-bold text-white">Alwin Sanil</h1>
         <h3 className="text-xl md:text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-red-600 tracking-wide">
-          Software Developer
+          Full-Stack Developer
         </h3>
         <p className="text-base tracking-wide pt-3 text-center md:text-left">
-          A Software Developer with a strong foundation in Computer Science and
-          hands-on experience in building web applications, CRMs, and
-          project management tools. Skilled in full-stack development using
-          modern frameworks and passionate about designing intuitive, scalable,
-          and maintainable software. Eager to contribute technical expertise,
-          creativity, and problem-solving skills to a collaborative development
-          team while continuously learning and adopting emerging technologies.
+          I build software that handles real business complexity — inventory systems, multi-cloud deployments, load-tested APIs — not tutorial projects. 
+          Master's in Applied Computer Science from Dalhousie (4.15 GPA), and before that a Bachelor's in the same field. 
+          At Lindner Group in Dubai I built a procurement and inventory system from scratch, the kind of ERP work most new grads never touch. 
+          At ChangeMakers in Halifax I worked across the stack, from React and WordPress to accessibility audits that actually shipped.
+          <br />
+          <br />
+          Right now I'm deep in Java/Spring Boot, AWS and Azure, Docker, CI/CD — the stuff that keeps systems running, not just working. 
+          DALScooter was multi-cloud with CloudWatch logging and k6 load testing. ProjectStream was Spring Boot end to end. I like the 
+          DevOps and SRE side of engineering: the part where code meets infrastructure and has to survive contact with production.
+          <br />
+          <br />
+          Based in Halifax, authorized to work in Canada, looking for the next team to build with.
         </p>
       </div>
     </div>

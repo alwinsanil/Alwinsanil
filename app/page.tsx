@@ -8,6 +8,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 import Certifications from '@/components/Certifications';
+import Education from '@/components/Education';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Banner />
         {/* <AboutMe /> */}
         <Experience />
+        <Education />
         <Skills />
         <Projects />
         <Certifications />
