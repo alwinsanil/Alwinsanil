@@ -30,7 +30,7 @@ const Banner = () => {
           DevOps and SRE side of engineering: the part where code meets infrastructure and has to survive contact with production.
           <br />
           <br />
-          Based in Halifax, authorized to work in Canada, looking for the next team to build with.
+          Authorized to work in Canada, looking for the next team to build with.
         </p>
       </div>
     </div>
