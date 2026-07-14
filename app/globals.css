@@ -2,9 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-background: 239 238 232;
+  --color-surface: 229 227 216;
+  --color-foreground: 33 31 27;
+  --color-muted: 108 103 92;
+  --color-border: 199 195 182;
+  --color-accent: 37 99 235;
+  --color-accent-muted: 219 234 254;
+}
+
+.dark {
+  --color-background: 0 0 0;
+  --color-surface: 3 7 18;
+  --color-foreground: 243 244 246;
+  --color-muted: 156 163 175;
+  --color-border: 55 65 81;
+  --color-accent: 37 99 235;
+  --color-accent-muted: 23 37 84;
+}
+
 @layer components {
   .wrapper{
-    @apply border-b-[1px] border-b-slate-600 py-20;
+    @apply border-b-[1px] border-b-border py-20;
   }
 
   .arrowMove{

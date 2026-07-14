@@ -12,7 +12,7 @@ import Education from '@/components/Education';
 
 export default function Home() {
   return (
-    <main className="w-full bg-gray-950 text-gray-300 px-4">
+    <main className="w-full bg-background text-foreground px-4">
       <div className="max-w-screen-lg mx-auto lg:pt-10">
         <NavBar />
         <Banner />

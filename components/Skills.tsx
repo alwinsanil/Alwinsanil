@@ -69,7 +69,7 @@ const Skills = () => {
       <div className="space-y-6">
         {skillGroups.map((group) => (
           <div key={group.label}>
-            <h4 className="text-sm uppercase tracking-wider text-gray-500 mb-2">{group.label}</h4>
+            <h4 className="text-sm uppercase tracking-wider text-muted mb-2">{group.label}</h4>
             <div className="flex gap-3 flex-wrap">
               {group.skills.map((s) => (
                 <SkillCard key={s.name} name={s.name} url={s.url} tier="primary" />

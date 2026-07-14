@@ -12,16 +12,16 @@ import CompactProjectCard from "./CompactProjectCard";
 
 const featured = [
   {
-    proj: "DALScooter eCommerce",
-    desc: "A fully serverless eCommerce app to rent bikes and e-scooters, built on a multi-cloud AWS + Azure environment.",
+    proj: "ProjectStream — Jira Lite",
+    desc: "A full-stack project management tool built for both technical and non-technical teams to manage work on one platform.",
     bullets: [
-      "Auto-scaling, serverless architecture using Lambda, DynamoDB, SNS/SQS.",
-      "Automated CI/CD pipelines provisioned via Terraform.",
+      "React front end, Spring Boot backend, JUnit-tested.",
+      "CI/CD deployment pipeline to VMs.",
     ],
-    tools: ["AWS", "Azure", "Lambda", "DynamoDB", "Terraform", "Cognito"],
-    img: ds.src,
-    repoUrl: "https://github.com/alwinsanil/DALScooter",
-    liveUrl: "https://main.dnctgkfwwxgms.amplifyapp.com",
+    tools: ["React", "Java", "Spring Boot", "MySQL", "CI/CD"],
+    img: ps.src,
+    repoUrl: "https://github.com/alwinsanil/ProjectStream",
+    liveUrl: "https://project-stream-black.vercel.app",
   },
   {
     proj: "MediLink — Virtual Care SaaS Platform",
@@ -37,16 +37,16 @@ const featured = [
     reverse: true,
   },
   {
-    proj: "ProjectStream — Jira Lite",
-    desc: "A full-stack project management tool built for both technical and non-technical teams to manage work on one platform.",
+    proj: "DALScooter eCommerce",
+    desc: "A fully serverless eCommerce app to rent bikes and e-scooters, built on a multi-cloud AWS + Azure environment.",
     bullets: [
-      "React front end, Spring Boot backend, JUnit-tested.",
-      "CI/CD deployment pipeline to VMs.",
+      "Auto-scaling, serverless architecture using Lambda, DynamoDB, SNS/SQS.",
+      "Automated CI/CD pipelines provisioned via Terraform.",
     ],
-    tools: ["React", "Java", "Spring Boot", "MySQL", "CI/CD"],
-    img: ps.src,
-    repoUrl: "https://github.com/alwinsanil/ProjectStream",
-    liveUrl: "https://project-stream-black.vercel.app",
+    tools: ["AWS", "Azure", "Lambda", "DynamoDB", "Terraform", "Cognito"],
+    img: ds.src,
+    repoUrl: "https://github.com/alwinsanil/DALScooter",
+    liveUrl: "https://main.dnctgkfwwxgms.amplifyapp.com",
   },
 ];
 
@@ -88,7 +88,7 @@ const Projects = () => {
       <div className="flex flex-col gap-20 mb-16">
         {featured.map((p) => <FeaturedProjectCard key={p.proj} {...p} />)}
       </div>
-      <h3 className="text-xl font-semibold text-gray-400 mb-6">Other Projects</h3>
+      <h3 className="text-xl font-semibold text-muted mb-6">Other Projects</h3>
       <div className="grid md:grid-cols-3 gap-6">
         {compact.map((p) => <CompactProjectCard key={p.proj} {...p} />)}
       </div>

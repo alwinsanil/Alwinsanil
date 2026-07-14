@@ -1,4 +1,5 @@
 import React from 'react'
+import ThemeToggle from './ThemeToggle'
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
                     Experience{""}
                 </a>
             <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
-            bg-blue-600 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+            bg-accent -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
          </h3>
     </div>
     <div className='text-2xl font-semibold relative'>
@@ -21,7 +22,7 @@ const NavBar = () => {
                 Education{""}
             </a>
         <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
-        bg-blue-600 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+        bg-accent -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
         </h3>
     </div>
     <div className='text-2xl font-semibold relative'>
@@ -33,7 +34,7 @@ const NavBar = () => {
                 Skills{""}
             </a>
         <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
-        bg-blue-600 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+        bg-accent -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
         </h3>
     </div>
     <div className='text-2xl font-semibold relative'>
@@ -45,7 +46,7 @@ const NavBar = () => {
                 Projects{""}
             </a>
         <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
-        bg-blue-600 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+        bg-accent -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
         </h3>
     </div>
     <div className='text-2xl font-semibold relative'>
@@ -57,8 +58,14 @@ const NavBar = () => {
                 Contact{""}
             </a>
         <span className='w-full h-[2px] absolute bottom-0 left-0 inline-block
-        bg-blue-600 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
+        bg-accent -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300'></span>
         </h3>
+    </div>
+    <div className='text-2xl font-semibold relative'>
+        |
+    </div>
+    <div className='flex items-center group'>
+        <ThemeToggle />
     </div>
     </div>
   )

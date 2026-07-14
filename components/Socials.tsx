@@ -8,7 +8,7 @@ interface Soc {
 const Socials = ({name, url}: Soc) => {
   return (
     <div>
-        <a href={url} target='_blank' className='flex items-center justify-center gap-2 text-xl text-gray-400 font-semibold group'>
+        <a href={url} target='_blank' className='flex items-center justify-center gap-2 text-xl text-muted font-semibold group'>
                 <p>{name}</p>
                 <BsArrowUpRight className='arrowMove' />
             </a>

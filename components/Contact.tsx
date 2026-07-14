@@ -11,8 +11,8 @@ const Contact = () => {
             </p>
             <div className='flex gap-4'>
               <a href='mailto:alwinsanil@gmail.com'>
-                  <button className='w-52 h-14 bg-gradient-to-r from-violet-600 to-blue-800 font-extrabold text-xl rounded-lg
-                  hover:from-blue-800 hover:to-violet-600'>Say Hello!</button>
+                  <button className='w-52 h-14 text-white bg-gradient-to-r from-violet-600 to-blue-800 font-extrabold text-xl rounded-lg
+                    hover:from-blue-800 hover:to-violet-600'>Say Hello!</button>
               </a>
               {/* TODO: confirm actual resume filename in /public */}
               <a href='https://drive.google.com/file/d/1c8VFNEWVC3ZNE7_WCW4wrCu3XlWNGxCj/view?usp=share_link' target='_blank'>

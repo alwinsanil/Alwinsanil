@@ -11,19 +11,19 @@ interface Props {
 
 const CompactProjectCard = ({ proj, desc, tools, img, url }: Props) => {
   return (
-    <a href={url} target="_blank" className="block border border-gray-700 hover:border-blue-600 rounded-lg overflow-hidden transition-colors duration-300 group">
+    <a href={url} target="_blank" className="block border border-border hover:border-accent rounded-lg overflow-hidden transition-colors duration-300 group">
       <div className="h-40 relative">
         <Image className="object-cover group-hover:scale-105 transition-transform duration-300" fill src={img} alt={proj} />
       </div>
       <div className="p-4">
         <div className="flex items-center justify-between">
           <h3 className="font-bold text-lg">{proj}</h3>
-          <BsArrowUpRight className="text-gray-500 group-hover:text-blue-500" />
+          <BsArrowUpRight className="text-muted group-hover:text-accent" />
         </div>
-        <p className="text-sm text-gray-400 mt-1 mb-2">{desc}</p>
+        <p className="text-sm text-muted mt-1 mb-2">{desc}</p>
         <div className="flex flex-wrap gap-1">
           {tools.map((t) => (
-            <span key={t} className="text-[11px] px-2 py-0.5 rounded-full border border-gray-700 text-gray-500">{t}</span>
+            <span key={t} className="text-[11px] px-2 py-0.5 rounded-full border border-border text-muted">{t}</span>
           ))}
         </div>
       </div>
