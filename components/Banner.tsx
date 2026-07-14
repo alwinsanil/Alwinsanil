@@ -3,7 +3,7 @@ import profilePic from '../public/img/profilepic.jpg'
 
 const Banner = () => {
   return (
-    <div className="flex flex-col md:flex-row items-start gap-10 wrapper">
+    <div className="flex flex-col md:flex-row items-center md:items-start gap-10 wrapper">
       {/*Image*/}
       <div className="w-40 h-40 rounded-full bg-background">
         <Image
